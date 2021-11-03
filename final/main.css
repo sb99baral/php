@@ -1,0 +1,48 @@
+#screening_page {
+    margin: auto;
+    width: 60%;
+}
+
+#screening_header, #screening_form {
+    background-color: white;
+    padding: 1.75vw;
+    border-radius: 10px;
+
+}
+
+#screening_header {
+    margin-top: 2vh;
+	
+}
+#screening_form{
+    margin-top: 3vh;
+    overflow-y: hidden;
+}
+
+#screeningFormSubmit {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1em;
+	font-weight:bold;
+	padding:0.5em 0.5em;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	float: right;
+}
+
+#screeningFormSubmit:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+#screeningFormSubmit:active {
+	position:relative;
+	top:1px;
+}
+
